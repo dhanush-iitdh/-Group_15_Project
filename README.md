@@ -18,16 +18,19 @@ This project addresses the need for a reliable temperature control system capabl
 4. Demonstrating effective control with minimal overshoot and oscillation, achieving a stable thermal environment.
 
 # Solution
-1. Hardware Setup:
-   (i) A temperature sensor continuously monitors the current temperature.
-   (ii) A heating coil serves as the system’s actuator, adjusting the heat output as needed to maintain the target temperature.
-2. PID Algorithm Implementation:
-   (i) The PID controller calculates the necessary adjustments by combining proportional, integral, and derivative actions to correct temperature discrepancies.
-   (ii) The proportional term reduces the current error, the integral term eliminates residual steady-state error, and the derivative term anticipates future error trends for smoother control.
-3. Feedback Control Mechanism:
-   (i) The system operates in a closed loop, where temperature readings from the sensor provide feedback to the controller, allowing it to make real-time adjustments to the heating element.
-   (ii) This feedback loop enables precise control over the temperature, minimizing fluctuations and maintaining stability around the setpoint.
+ Hardware Setup:
+   1. A temperature sensor continuously monitors the current temperature.
+   2. A heating coil serves as the system’s actuator, adjusting the heat output as needed to maintain the target temperature.
+ PID Algorithm Implementation:
+   1. The PID controller calculates the necessary adjustments by combining proportional, integral, and derivative actions to correct temperature discrepancies.
+   2. The proportional term reduces the current error, the integral term eliminates residual steady-state error, and the derivative term anticipates future error trends for smoother control.
+ Feedback Control Mechanism:
+   1. The system operates in a closed loop, where temperature readings from the sensor provide feedback to the controller, allowing it to make real-time adjustments to the heating element.
+   2. This feedback loop enables precise control over the temperature, minimizing fluctuations and maintaining stability around the setpoint.
 
+# Block Diagram
+
+![PID Temperature Controller Block Diagram](https://your-image-link.com/your-diagram.png)
 
 # Pseudocode
 
