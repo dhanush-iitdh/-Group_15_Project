@@ -64,7 +64,7 @@ In case of verification failure, an error message will be shown.
 
 This temperature control system can be applied in scenarios where maintaining a stable temperature is crucial, such as:
 
-   (i) Laboratory experiments requiring a controlled environment
-   (ii) Food processing systems
-   (iii) Industrial manufacturing processes
-   (iv) Greenhouse temperature management
+   1. Laboratory experiments requiring a controlled environment
+   2. Food processing systems
+   3. Industrial manufacturing processes
+   4. Greenhouse temperature management
