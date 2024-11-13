@@ -30,7 +30,7 @@ This project addresses the need for a reliable temperature control system capabl
 
 # Block Diagram
 
-![PID Temperature Controller Block Diagram](https://your-image-link.com/block_diagram)
+![PID Temperature Controller Block Diagram](block_diagram.png)
 
 
 # Pseudocode
