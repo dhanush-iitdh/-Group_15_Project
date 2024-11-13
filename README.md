@@ -37,11 +37,15 @@ This project addresses the need for a reliable temperature control system capabl
 
 The following pseudocode outlines the main functionality of the PID Temperature Control System:
 
-initializeSystem()  // Set up PID parameters, sensor, and heater
+```plaintext
+
+// Initialize system & Set up PID parameters, sensor, and heater
+initializeSystem()
+  
 while (systemActive) {
     currentTemperature = readTemperatureSensor()
     error = targetTemperature - currentTemperature
-
+    
     // Calculate PID control output
     P = kp * error
     I += ki * error * deltaTime
@@ -51,15 +55,13 @@ while (systemActive) {
     adjustHeatingCoil(controlOutput)  // Apply control signal to heater
 
     previousError = error
-    wait(deltaTime)  // Short delay to maintain control frequency
+    delay(deltaTime)  // Delay to control loop frequency
 }
-
+```
 
 # Expected Outcome
 
-The system will successfully read the RFID tag and display the student's information on the laptop.
-It will verify the branch and institute details, and if they match, the corresponding marks card file will be opened and displayed.
-In case of verification failure, an error message will be shown.
+The PID control system will accurately maintain the target temperature around 35°C, ensuring stable temperature control with minimal error. The system will effectively reduce overshoot and minimize temperature oscillations, providing a reliable and steady thermal environment.
 
 # Applications
 
