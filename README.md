@@ -28,9 +28,6 @@ This project addresses the need for a reliable temperature control system capabl
    1. The system operates in a closed loop, where temperature readings from the sensor provide feedback to the controller, allowing it to make real-time adjustments to the heating element.
    2. This feedback loop enables precise control over the temperature, minimizing fluctuations and maintaining stability around the setpoint.
 
-# Block Diagram
-
-![PID Temperature Controller Block Diagram](block_diagram.png)
 
 # Circuit Diagram
 
